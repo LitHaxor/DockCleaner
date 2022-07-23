@@ -16,7 +16,7 @@ docker container run \
     -d \
     --restart unless-stopped \
     -v /var/run/docker.sock:/var/run/docker.sock \
-    lithasan/dockercleaner:latest
+    lithasan/dockcleaner:latest
 ```
 
 > This is image is compatible for amd64, arm32, and arm64 CPU architectures
