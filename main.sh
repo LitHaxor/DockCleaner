@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
 while :; do 
-    echo '** Starting cleanup.'
+    echo '** DOCKER CLEANER Starting **'
     ./cleanup.sh
-    echo '** Cleanup done.'
+    echo '** DOCKER CLEANER Finished **'
 
-    echo "** Sleeping for: ${CLEANUP_RATE} seconds"
-    sleep "$CLEANUP_RATE"
+    echo "** Will restart after: ${FREQUENCY} seconds"
+    sleep "$FREQUENCY"
 done
