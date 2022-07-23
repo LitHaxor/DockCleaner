@@ -12,6 +12,7 @@ Automatically cleans your unused docker images, volumes, containers.
 
 ```bash
 docker container run \
+    --name="DockCleaner" \
     -d \
     --restart unless-stopped \
     -v /var/run/docker.sock:/var/run/docker.sock \
