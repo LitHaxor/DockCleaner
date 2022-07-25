@@ -30,7 +30,7 @@ version: "3.6"
 
 services:
   dockupdater:
-    image: lithasan/dockercleaner:latest
+    image: lithasan/dockcleaner:latest
     deploy:
       placement:
         constraints:
